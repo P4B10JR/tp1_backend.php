@@ -106,6 +106,30 @@
      $A=($a * $b);
      echo "El area de un rectangulo es"," ",$A,"cm.";
      ?>
+    
+     <br>
+     <br>
+     <br>
+
+     <?php
+     define("pi","3.1416");
+     $r=30;
+     $p=0;
+     $p=($r + $r) * pi;
+     echo "El perimetro de un circulo es"," ",$p,"cm.";
+     ?>
+
+     <br>
+     <br>
+
+     <?php
+     
+     $r=30;
+     $A=0;
+     $A=($r * $r) * pi;
+     echo "El area de un circulo es ", " ",$A,"cm.";
+     ?>
+
 
   </body>
 </html>
